@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".CalculateActivity"
+            android:label="@string/title_activity_calculate"
+            android:parentActivityName=".MainActivity">
+        </activity>
     </application>
 
 </manifest>

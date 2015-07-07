@@ -6,4 +6,5 @@
 
     <string name="title_activity_main">Green Calculator</string>
     <string name="calculate_button_text">Calculate</string>
+    <string name="title_activity_calculate">Green Calculator</string>
 </resources>
