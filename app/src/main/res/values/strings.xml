@@ -13,4 +13,10 @@
     <string name="text_organic_waste">Organic Waste (Kg/month)</string>
     <string name="text_NGV">NGV (m³/month)</string>
     <string name="text_gasoline">Gasoline (Liters/month)</string>
+    <string name="text_ethanol">Ethanol (Liters/month)</string>
+    <string name="link_take_action">Why not take action?</string>
+    <string name="text_description_result">The number of necessary trees to be compensated is:</string>
+    <string name="text_compensate_in">Compensating in:</string>
+    <string name="text_guapuruvu">Guapuruvu</string>
+    <string name="text_eucalyptus">Eucalyptus</string>
 </resources>
