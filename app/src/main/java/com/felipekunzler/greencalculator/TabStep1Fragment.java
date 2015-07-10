@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 /**
  * Created by Felipe on 07/07/2015.
  */
-public class TabStep1Fragment extends  Fragment{
+public class TabStep1Fragment extends Fragment{
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

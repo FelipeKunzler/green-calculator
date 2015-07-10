@@ -10,7 +10,6 @@ import android.view.MenuItem;
 
 public class CalculateActivity extends ActionBarActivity {
 
-    // Declaring Your View and Variables
     Toolbar toolbar;
     ViewPager pager;
     ViewPagerAdapter adapter;
@@ -23,10 +22,6 @@ public class CalculateActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculate);
 
-        // Creating The Toolbar and setting it as the Toolbar for the activity
-        //toolbar = (Toolbar) findViewById(R.id.tool_bar);
-        //setSupportActionBar(toolbar);
-
         // Creating The ViewPagerAdapter and Passing Fragment Manager, Titles fot the Tabs and Number Of Tabs.
         adapter =  new ViewPagerAdapter(getSupportFragmentManager(), titles, numTabs);
 
@@ -37,14 +32,6 @@ public class CalculateActivity extends ActionBarActivity {
         // Assiging the Sliding Tab Layout View
         tabs = (SlidingTabLayout) findViewById(R.id.tabs);
         tabs.setDistributeEvenly(true); // To make the Tabs Fixed set this true, This makes the tabs Space Evenly in Available width
-
-        // Setting Custom Color for the Scroll bar indicator of the Tab View
-       /* tabs.setCustomTabColorizer(new SlidingTabLayout.TabColorizer() {
-            @Override
-            public int getIndicatorColor(int position) {
-                return getResources().getColor(R.color.tabsScrollColor);
-            }
-        });*/
 
         // Setting the ViewPager For the SlidingTabsLayout
         tabs.setViewPager(pager);
