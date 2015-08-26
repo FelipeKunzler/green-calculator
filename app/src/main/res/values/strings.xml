@@ -7,7 +7,7 @@
     <string name="title_activity_calculate">Green Calculator</string>
     <string name="text_description_step1">Please, fill the fields and then swipe right for the next step.</string>
     <string name="text_description_step2">Please, fill the fields and then swipe right to see the result.</string>
-    <string name="text_energy">Electric Energy (Kw/month)</string>
+    <string name="text_energy">Electric Energy (kWh/month)</string>
     <string name="text_LPG">LPG (Gas cylinder/month)</string>
     <string name="text_sewer">Sewer (Nº of people)</string>
     <string name="text_organic_waste">Organic Waste (Kg/month)</string>
